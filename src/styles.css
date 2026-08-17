@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Kultum Ramadhan';
+    src: url('assets/fonts/KultumRamadhan.woff2') format('woff2'),
+        url('assets/fonts/KultumRamadhan.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kultum Ramadhan';
+    font-size: 50px;
+}
+
+header {
+    margin-bottom: 25px;
+}
+
+nav {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 10px;
+}
+
+nav > button {
+    border: none;
+}
+
+nav > button:hover {
+    color: black;
+}
+
+body {
+    background-image: url("./assets/images/background.jpg");
+    background-size: auto 100vh;
+    text-align: center;
+}
+
+
+nav > button,
+div#content > div > h1 {
+    color: #FFFFFF;
+    text-shadow: 2px 2px 0 #BC1819, 2px -2px 0 #BC1819, -2px 2px 0 #BC1819, -2px -2px 0 #BC1819, 2px 0px 0 #BC1819, 0px 2px 0 #BC1819, -2px 0px 0 #BC1819, 0px -2px 0 #BC1819;
+}
+
+div#content > div > h1 {
+    font-size: 2rem;
+}
+
+div#content > div {
+    padding: 25px;
+    background-color: rgba(255, 255, 255, 0.50);
+}
+
+div#content > div > p{
+    color: black
+}
+
+li {
+    list-style-type: none;
+}
